@@ -1,2 +1,2 @@
-# pomodoro-clock
+# Pomodoro Clock
 FCC advanced project
