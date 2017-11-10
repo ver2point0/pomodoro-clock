@@ -1,0 +1,20 @@
+/*********************************
+General
+*********************************/
+
+body {
+  font-family: "Lato", serif, sans-serif;
+  background-color: #d50000;
+  /*padding-top: 150px;*/
+}
+
+/*********************************
+Footer
+*********************************/
+
+footer {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+}
