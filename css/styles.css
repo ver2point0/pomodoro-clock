@@ -5,7 +5,22 @@ General
 body {
   font-family: "Lato", serif, sans-serif;
   background-color: #d50000;
-  /*padding-top: 150px;*/
+  padding-top: 150px;
+  text-align: center;
+}
+
+/*********************************
+Timer titles and buttons
+*********************************/
+
+#setTimerTitles {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+#setTimerButtons {
+  font-size: 20px;
 }
 
 /*********************************
