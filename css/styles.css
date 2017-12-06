@@ -10,7 +10,7 @@ body {
 }
 
 /*********************************
-Timer titles and buttons
+Timer titles and timer buttons
 *********************************/
 
 #setTimerTitles {
@@ -21,6 +21,19 @@ Timer titles and buttons
 
 #setTimerButtons {
   font-size: 20px;
+}
+
+.buttons {
+  width: 35px;
+  height: 35px;
+  background-color: #ffd600;
+  border-radius: 15px;
+}
+
+.buttonsTimer {
+  background-color: #f57f17;
+  font-size: 40px;
+  border: none;
 }
 
 /*********************************
