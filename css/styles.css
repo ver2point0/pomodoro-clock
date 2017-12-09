@@ -38,6 +38,16 @@ Timer titles and timer buttons
   margin-right: -5px;
 }
 
+#counter {
+  width: 300px;
+  margin: 20px auto;
+  border: solid;
+  border-color: #ffff8d;
+  border-radius: 350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .buttons {
   width: 35px;
   height: 35px;
@@ -47,7 +57,6 @@ Timer titles and timer buttons
 
 .buttonsTimer {
   background-color: #f57f17;
-  font-size: 40px;
   border: none;
 }
 
