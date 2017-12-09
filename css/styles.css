@@ -9,18 +9,33 @@ body {
   text-align: center;
 }
 
+#container-clock {
+  width: 500px;
+}
+
 /*********************************
 Timer titles and timer buttons
 *********************************/
 
 #setTimerTitles {
   margin-bottom: 15px;
+  margin-left: 10px;
   font-size: 20px;
   color: white;
 }
 
 #setTimerButtons {
   font-size: 20px;
+}
+
+#timeBreak {
+  margin-left: 10px;
+  margin-right: -5px;
+}
+
+#timeWork {
+  margin-left: 10px;
+  margin-right: -5px;
 }
 
 .buttons {
