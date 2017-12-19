@@ -24,4 +24,16 @@ $(document).ready(function() {
     var idString = "#".concat(idString);
     $(idString).html(inputHtml);
   }
+  
+  // show time for break or work
+  function displayHint() {
+    var hintString = "Break!";
+    if (work) {
+      hintString = "Work!";
+    }
+    var inputHtml = "<p>" + hintString + "</p>";
+    $("#hintString").html(inputHtml);
+  }
+  
+  
 });
