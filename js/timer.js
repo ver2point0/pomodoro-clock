@@ -35,5 +35,19 @@ $(document).ready(function() {
     $("#hintString").html(inputHtml);
   }
   
-  
+  // call display functions
+  function display() {
+    displaySetTime("timeBreak", timeRest);
+    displaySetTime("timeWork", timeWork);
+    if (!started) {
+      if (work) {
+        displayTimer("timer", timeWork * 60);
+      } else {
+        displayTimer("timer", timeRest * 60);
+      }
+    } else {
+      displayTimer("timer", time);
+    }
+    displayHint();
+  }
 });
