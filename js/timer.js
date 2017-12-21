@@ -50,4 +50,16 @@ $(document).ready(function() {
     }
     displayHint();
   }
+  
+  function timer() {
+    if (time > 0) {
+      time = time - 1;
+      started = true;
+    } else {
+      started = false;
+      alert("It's Time!");
+      work = !work;
+    }
+    display();
+  }
 });
