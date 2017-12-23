@@ -60,6 +60,18 @@ Timer titles and timer buttons
   border: none;
 }
 
+button:focus {
+  outline:0;
+}
+
+#hint {
+  font-size: 30px;
+}
+
+#timer {
+  font-size: 60px;
+}
+
 /*********************************
 Footer
 *********************************/

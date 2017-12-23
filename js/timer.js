@@ -59,7 +59,20 @@ $(document).ready(function() {
       started = false;
       alert("It's Time!");
       work = !work;
+      clearInterval(interval);
     }
     display();
   }
+  
+  $("button").click(function() {
+    // if user stops the timer
+    var hasStoppedTimer = false;
+    
+    // stop timer if it is already running 
+    if (started) {
+      started = false;
+      hasStoppedTimer = true;
+      clearInterval(interval);
+    }
+  });
 });
