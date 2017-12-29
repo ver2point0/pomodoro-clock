@@ -74,5 +74,34 @@ $(document).ready(function() {
       hasStoppedTimer = true;
       clearInterval(interval);
     }
+    
+    // check which button when clicked
+    var buttonValue = $(this).attr("value");
+    if (buttonValue === "minusBreak") {
+      if (timeRest > 0) {
+        timeRest -= 1;
+      }
+    } else if (buttonValue === "plusBreak") {
+      if (timeRest < 59) {
+        timeRest += 1;
+      }
+    } else if (buttonValue === "minusWork") {
+      if (timeWork > 0) {
+        timeWork -= 1;
+      }
+    } else if (buttonValue === "plusWork") {
+      if (timeWork < 59) {
+        timeWork += 1;
+      }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
   });
 });
